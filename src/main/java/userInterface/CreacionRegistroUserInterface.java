@@ -14,10 +14,15 @@ public class CreacionRegistroUserInterface extends PageObject {
     public static Target IngresoCorreo = Target.the("Ingreso correo").located(By.name("emailRegisterPage"));
     public static Target IngresoContrasena = Target.the("Ingreso contraseña").located(By.name("passwordRegisterPage"));
     public static Target ConfirmacionContrasena = Target.the("Confirmacion Contraseña").located(By.name("confirm_passwordRegisterPage"));
-    public static Target Nombre = Target.the("Ingreso nombre").located(By.name("first_nameRegisterPage"));
+    public static Target AceptarTerminos = Target.the("Aceptar terminos y condisiones").located(By.name("i_agree"));
+    public static Target BotonRegistrarse = Target.the("Botón registrarse").located(By.id("register_btnundefined"));
+    public static Target NombreUsuarioCreado = Target.the("Texto con usuario creado").located(By.xpath("//*[@id=\"menuUserLink\"]/span"));
+
+
+    /* public static Target Nombre = Target.the("Ingreso nombre").located(By.name("first_nameRegisterPage"));
     public static Target Apellido = Target.the("Ingreso apellido").located(By.name("last_nameRegisterPage"));
     public static Target Telefono = Target.the("Ingreso Telefono").located(By.name("phone_numberRegisterPage"));
     public static Target Pais = Target.the("Ingreso Pais").located(By.name("countryListboxRegisterPage"));
     public static Target Colombia = Target.the("Select").located(By.xpath("//*[@id=\"formCover\"]/div[3]/div[1]/sec-view[1]/div/select/option[45]"));
-    public static Target Ciudad = Target.the("Ingreso Ciudad").located(By.name("cityRegisterPage"));
+    public static Target Ciudad = Target.the("Ingreso Ciudad").located(By.name("cityRegisterPage"));*/
 }
